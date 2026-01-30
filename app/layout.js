@@ -11,7 +11,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <nav className="navbar">
-          <a href="/" className="logo">WordCounter</a>
+         <a href="/" className="logo">
+        <img src="/logo.svg" alt="Word Counter Logo" height="28" />
+        <span>WordCounter</span>
+        </a>
+
           <div className="nav-links">
             <a href="/about">About</a>
             <a href="/contact">Contact</a>
